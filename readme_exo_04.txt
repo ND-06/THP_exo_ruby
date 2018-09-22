@@ -1,0 +1,2 @@
+Ici, le programme ne s'exécute pas. L'erreur retournée est "unterminated string meets end of file".
+En effet, lorsque l'on a tapé -- puts "Salut, ça farte ? , on a tapé une chaine de caractéres ( "string") , ce qui implique impérativement de devoir mettre ces caractéres entre 2 guillemets pour que cela soit reconnu par l'ordinateur. En l'occurence, il manque les deuxiemes guillemets pour fermer le message, d'ou l'erreur qui nous est retournée.
