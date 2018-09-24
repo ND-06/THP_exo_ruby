@@ -1,0 +1,8 @@
+Le premier programme renvoie à l'utilisateur une boite de dialogue l'invitant a saisir son blase 
+( voir readme_exo_07_a.rb pour plus de détails sur la fonction gets.chomp ) -- on a d'abord tapé le message qui doit s'afficher dans la boite de dialogue que verra l'utilisateur ( via puts "Bonjour, c'est quoi ton blase ?") puis déclaré une variable pour laquelle on assigne l'instruction gets.chomp, qui permet à l'utilisateur de saisir du texte ou un nombre ET de revenir à la ligne lorsque l'utilisateur appuie sur la touche entrée pour valider sa saisie dans la boite de dialogue!
+
+Dans le premier programme, on saisit donc son blase, et le programme nous renvoie en retour le blase que l'on a saisi , dans le deuxieme programme , le résultat est quasiment le même sauf que nous avons , lors de la saisie du blase un symbole > ( grace au "print" dans le code qui a été ajouté au puts de la ligne d'avant )
+
+Enfin dans le troisième programme , il y'a une intéraction avec l'utilisateur puisque l'on peut saisir des données suite au lancement du programme ( grace a gets.chomp ), mais nous n'avons affilié aucune chaine de caractéres à puts ( hormis la variable user_name ), ce qui fait que rien ne s'affiche pour l'utilisateur , aucun message n'apparait à l'utilisateur lui indiquant une question ou tout autre type de message. Il peut cependant retourner des données puisque gets.chomp ( qui permet l'intéraction avec l'utilisateur  est bien affilié à la variable user_name )
+Username stockera donc la valeur retournée par l'utilisateur, sauf que l'utilisateur ne sait pas quoi taper puisqu'aucun message n'est indiqué lors de l'interaction. 
+ 
